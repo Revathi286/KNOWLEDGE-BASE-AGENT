@@ -69,6 +69,10 @@ uvicorn simple_kb_agent:app --reload --port 8001
 streamlit run kb_ui_simple.py
 
 
+video demo: https://drive.google.com/file/d/1bnIkgDvLlCuOmBA3SdY1Wu-jUrUwkv7G/view?usp=sharing
+
+
+
 🚧 Limitations
 
 Only one document stored at a time (in memory)
