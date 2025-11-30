@@ -2,10 +2,10 @@ KNOWLEDGE BASE AGENT
 
 A lightweight, fast, and serverless RAG-free agent that allows users to:
 
-✔ Upload a PDF, DOCX, or TXT
-✔ Ask questions
-✔ Get answers powered directly by Groq LLM
-✔ No embeddings, no vector DB, no chunking — extremely fast
+✔ Upload a PDF, DOCX, or TXT,
+✔ Ask questions,
+✔ Get answers powered directly by Groq LLM,
+✔ No embeddings, no vector DB, no chunking — extremely fast.
 
 
 Live Demo
@@ -22,14 +22,14 @@ It behaves like ChatGPT with a document attached.
 
 Features
 Feature	Supported:
-PDF Upload	
-DOCX Upload	
-TXT Upload	
-Groq LLM-powered QA	
-Streamlit UI	
-No Vector DB	
-No Chunking	
-Works on Windows/Linux/Mac	
+PDF Upload,	
+DOCX Upload,	
+TXT Upload,	
+Groq LLM-powered QA,	
+Streamlit UI,	
+No Vector DB,	
+No Chunking,
+Works on Windows/Linux/Mac,	
 
 
 Architecture Diagram
@@ -40,11 +40,11 @@ Architecture Diagram
 
 Tech Stack
 
-Python
-FastAPI
-Streamlit
-Groq LLM API
-pypdf, python-docx (text extraction)
+Python,
+FastAPI,
+Streamlit,
+Groq LLM API,
+pypdf, python-docx (text extraction).
 
 
 Setup Instructions
@@ -75,17 +75,17 @@ video demo: https://drive.google.com/file/d/1bnIkgDvLlCuOmBA3SdY1Wu-jUrUwkv7G/vi
 
 🚧 Limitations
 
-Only one document stored at a time (in memory)
-No conversation memory
-Large PDFs may exceed Groq context limit
-Not suitable for long documents (>30–40 pages)
+Only one document stored at a time (in memory),
+No conversation memory,
+Large PDFs may exceed Groq context limit,
+Not suitable for long documents (>30–40 pages).
 
 
 🔮 Future Improvements
 
-Multi-file support
-Chat history
-Vector embeddings option (hybrid mode)
-PDF previews
-Authentication (API keys)
-Streaming responses
+Multi-file support,
+Chat history,
+Vector embeddings option (hybrid mode),
+PDF previews,
+Authentication (API keys),
+Streaming responses.
